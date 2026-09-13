@@ -1,2 +1,9 @@
-.desktop.ini
-.gitignore
+# Windows
+desktop.ini
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Logs
+*.loge
