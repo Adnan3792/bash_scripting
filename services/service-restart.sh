@@ -18,7 +18,7 @@ read -p  "Do you want to restart the servive $service (y/n) :" choice
 
 if [ "$choice" = "y" ]
 then 
-	if systemctl restart "$service"
+	if sudo systemctl restart "$service"
 	then
 		echo "Service $service resatrted successfully ! "
 	else
